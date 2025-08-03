@@ -29,35 +29,35 @@ body{
 
 .wrapper{
     text-align: center;
-    width: 325px;
-    height: 525px;
+    width: 20.313rem;
+    height: 32.813rem;
     margin: auto;
     background-color: var(--color-white);
     border-radius: 15px;
-    box-shadow: 5px 5px 20px var(--color-gray-600);
+    box-shadow: 0.313rem 0.313rem 1.25rem var(--color-gray-600);
 }
 
 .heroImage{
-    width: 325px;
-    border-radius: 15px 15px 0px 0px;
+    width: 20.313rem;
+    border-radius: 0.938rem 0.938rem 0 0;
 }
 
 h1{
     font-size: 1.5rem;
     font-family: "Outfit", sans-serif;
     margin: auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 h3{
     font-size: 1rem;
-    line-height: 26px;
+    line-height: 1.625rem;
     font-family: "outfit", sans-serif;
     font-weight: 400;
     color: var(--color-gray-600);
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 15px;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    padding-bottom: 0.938rem;
 }
 
 .icon{
@@ -67,11 +67,11 @@ h3{
 
 .cardInfo{
     display: flex;
-    width: 250px;
+    width: 15.625rem;
     padding: 1rem;
     align-items: center;
     background-color: var(--color-blue-50);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     height: 4rem;
     margin: auto;
     margin-bottom: 1.2rem;
@@ -111,7 +111,7 @@ button{
     font-family: "Red Hat Display", sans-serif;
     font-size: 1rem;
     font-weight: 900;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     height: 3rem;
     text-align: center;
     line-height: 3rem;
@@ -130,7 +130,7 @@ button{
     border: none;
     color: var(--color-gray-600);
     font-weight: 600;
-    margin: 25px auto;
+    margin: 1.563rem auto;
     background-color: inherit;
 }
 
@@ -151,12 +151,12 @@ button{
     }
 
     .wrapper{
-        width: 400px;
-        height: 575px
+        width: 25rem;
+        height: 35.938rem
     }
 
     .heroImage{
-        width: 400px;
+        width: 25rem;
     }
 
     .cardInfo{
