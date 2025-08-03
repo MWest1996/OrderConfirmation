@@ -125,7 +125,7 @@ button{
     font-weight: 600;
     margin: auto;
     padding-top: 25px;
-    background-color: var(--color-blue-50);
+    background-color: var(--color-white);
 }
 
 .attribution { font-size: 11px; text-align: center; }
