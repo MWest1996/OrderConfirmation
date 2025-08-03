@@ -15,6 +15,7 @@
 
 body{
     background-image: url(images/pattern-background-mobile.svg);
+    background-color: var(--color-blue-100);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -34,7 +35,6 @@ body{
     background-color: var(--color-white);
     border-radius: 15px;
     box-shadow: 5px 5px 20px var(--color-gray-600);
-
 }
 
 .heroImage{
@@ -57,18 +57,17 @@ h3{
     color: var(--color-gray-600);
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .icon{
     width: 15%;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 .cardInfo{
     display: flex;
     width: 250px;
-    justify-content: space-between;
     padding: 1rem;
     align-items: center;
     background-color: var(--color-blue-50);
@@ -86,10 +85,10 @@ h3{
 }
 
 .change a{
-    text-decoration: underline;
+    margin-left: 3rem;
     font-size: .75rem;
     font-weight: 900;
-    color: var(--color-blue-950);
+    color: hsl(228, 45%, 44%);
 }
 
 .planPrice{
@@ -108,25 +107,68 @@ button{
     width: 250px;
     background-color: var(--color-blue-700);
     color: var(--color-white);
+    box-shadow: 5px 5px 20px var(--color-gray-600);
     font-family: "Red Hat Display", sans-serif;
     font-size: 1rem;
-    font-weight: 700;
-    border-radius: 5px;
-    height: 2.5rem;
+    font-weight: 900;
+    border-radius: 10px;
+    height: 3rem;
     text-align: center;
-    line-height: 35px;
+    line-height: 3rem;
     margin: auto;
     padding: auto;
+    border: none;
+}
+
+.submit:hover{
+    opacity: .7;
+    cursor: pointer;
+    transition-duration: .2s;
 }
 
 .cancel{
     border: none;
     color: var(--color-gray-600);
     font-weight: 600;
-    margin: auto;
-    padding-top: 25px;
-    background-color: var(--color-white);
+    margin: 25px auto;
+    background-color: inherit;
+}
+
+.cancel:hover{
+    color: var(--color-blue-950);
+    cursor: pointer;
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 37.5rem){
+
+    body{
+        background-image: url(images/pattern-background-desktop.svg);
+        background-position: top right;
+        background-size: cover;
+    }
+
+    .wrapper{
+        width: 400px;
+        height: 575px
+    }
+
+    .heroImage{
+        width: 400px;
+    }
+
+    .cardInfo{
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .submit{
+        width: 80%;
+    }
+
+    .change a{
+        margin-left: 6rem;
+    }
+}
